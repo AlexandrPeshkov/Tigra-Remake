@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1122869963809746539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1122869963809746537}
+  - component: {fileID: 1122869963809746536}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1122869963809746537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122869963809746539}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.71773267, y: -0.05571961, z: -9.0390625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1122869963809746536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122869963809746539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4ae36740dc1c4142ab10f50d0b69814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  clipsCorrectly:
+  - {fileID: 8300000, guid: ce4626c2d82993348a979176f1520f69, type: 3}
+  - {fileID: 8300000, guid: e05ccce3812279f4982538c1a083c2fc, type: 3}
+  - {fileID: 8300000, guid: af9a4937667cd41439370d562d317f24, type: 3}
+  - {fileID: 8300000, guid: b4563af3ef531894385f36cffba4fb38, type: 3}
+  - {fileID: 8300000, guid: f3090a8865d6b3946af21486fb54293e, type: 3}
+  - {fileID: 8300000, guid: 85e116d62d671e3428af51cd498db940, type: 3}
+  - {fileID: 8300000, guid: e04f5f7f201bc7e489def3613ceb4f39, type: 3}
+  - {fileID: 8300000, guid: 1378030fe2ea2e749bee9103c002ae31, type: 3}
+  - {fileID: 8300000, guid: 513336ac5b0f8d9438a19d2b15dd8d10, type: 3}
+  - {fileID: 8300000, guid: 653dff6bae49b6d469faebf82bf8f879, type: 3}
+  clipsWrong:
+  - {fileID: 8300000, guid: a88d9b54834d5b94abdc949e2b92cbc9, type: 3}
+  - {fileID: 8300000, guid: 4d04d7566a00a0d4f8220b3f64d5253b, type: 3}
+  - {fileID: 8300000, guid: 1adbe7b7d4638ff42acbf279af8ed646, type: 3}
+  - {fileID: 8300000, guid: f3700eb062f5a4f45a03cdec4154e0be, type: 3}
+  clipsSelect:
+  - {fileID: 8300000, guid: 73f3ec70d606c5f4cba2d648ff632da1, type: 3}
+  clipsBuildWord:
+  - {fileID: 8300000, guid: d2378ec2e41bb724e8fbe6955f8747ff, type: 3}
+  - {fileID: 8300000, guid: 140903defcf3a3e4ba288d7c0c65bc3c, type: 3}
+  - {fileID: 8300000, guid: 9f7c0f4e0a33f4b4aa8b8846dd391a03, type: 3}
+  clipsFourExcess:
+  - {fileID: 8300000, guid: 5a999c56f60478c4bbf45c695e8011f1, type: 3}
+  - {fileID: 8300000, guid: 67308c973ba6c584c9fccb036b278988, type: 3}
+  - {fileID: 8300000, guid: 17ff92b065e53c041a20e8921d332b78, type: 3}
+  clipsSunClock: []
+  clipsAnimals:
+  - {fileID: 8300000, guid: 1f81b73383a67f7429a28fbc340db028, type: 3}
+  - {fileID: 8300000, guid: 987a9a877a81f4245907abd9a3924314, type: 3}
+  clipsHouses:
+  - {fileID: 8300000, guid: 2ee31d3a365cc754b94b1fd5a8b64649, type: 3}

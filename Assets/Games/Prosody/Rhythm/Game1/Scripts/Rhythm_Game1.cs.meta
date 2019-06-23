@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 067ec3afd25182d479b250bab9cef364
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - winPanel: {instanceID: 0}
+  - equalizer: {instanceID: 0}
+  - microphoneSettings: {instanceID: 0}
+  - rhythmSystem: {instanceID: 0}
+  - leftDoor: {instanceID: 0}
+  - rightDoor: {instanceID: 0}
+  - lampUnactive: {instanceID: 0}
+  - lampActive: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
