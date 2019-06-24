@@ -17,6 +17,7 @@ namespace Assets.Games.Lexis.Hold.Scripts
             startPos = transform.position;
             startParent = transform.parent;
             GetComponent<CanvasGroup>().blocksRaycasts = false;
+            AudioManager.instance.PlaySelect();
         }
 
         public void OnDrag(PointerEventData eventData)

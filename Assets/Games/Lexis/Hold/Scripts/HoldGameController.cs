@@ -122,6 +122,7 @@ namespace Assets.Games.Lexis.Hold.Scripts
             {
                 WellDoneDialog winDialog = Instantiate(wellDoneDialogPrefab, Canvas);
                 winDialog.OkButton.button.onClick.AddListener(MakeRetryDialog);
+                AudioManager.instance.PlayCorrectly();
             }
             else
             {
@@ -129,17 +130,21 @@ namespace Assets.Games.Lexis.Hold.Scripts
                 {
                     CheckFirstCardDropped(RightChests, card);
                     CheckFirstCardDropped(LeftChests, card);
-                    //voice Correct
+                    
                     var leftCategories = GetAvailableChestsCategories(LeftChests).ToList();
                     var rightCategories = GetAvailableChestsCategories(RightChests).ToList();
 
                     List<ItemCardCategory> AvailableCategories = leftCategories.Union(rightCategories).Where(c => !leftCategories.Intersect(rightCategories).Contains(c)).ToList();
                     ItemCardCategory cardCategory = AvailableCategories[UnityEngine.Random.Range(0, AvailableCategories.Count)];
                     MakeItemCard(cardCategory);
+
+                    AudioManager.instance.PlayCorrectly();
+
                 }
                 else
                 {
                     card.dragHandler.ResetPosition();
+                    AudioManager.instance.PlayWrong();
                 }
             }
         }
