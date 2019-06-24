@@ -4,3 +4,6 @@
 /Build
 *.lock
 /Temp/UnityLockfile
+*.csproj
+*.sln
+*.suo
