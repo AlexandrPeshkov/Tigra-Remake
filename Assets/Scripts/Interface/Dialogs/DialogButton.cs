@@ -27,7 +27,7 @@ namespace Assets.Scripts.Interface.Dialogs
 
         private void OnButtonClick()
         {
-            
+            AudioManager.instance.PlaySelect();
         }
     }
 }
