@@ -23,10 +23,10 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_5;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;NET_LEGACY;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_5;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;NET_LEGACY;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <NoWarn>0169;CS0649;IDE0051</NoWarn>
+    <NoWarn>0169</NoWarn>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -35,7 +35,7 @@
     <OutputPath>Temp\bin\Release\</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <NoWarn>0169;CS0649;IDE0051</NoWarn>
+    <NoWarn>0169</NoWarn>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
@@ -52,6 +52,9 @@
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2018.3.5f1</UnityVersion>
   </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\2018.3.5f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -138,7 +141,282 @@
     <Compile Include="Assets\Scripts\MicrophoneSettingsMenu.cs" />
     <Compile Include="Assets\Scripts\RhythmSystem\RhythmSampleInfo.cs" />
     <Compile Include="Assets\Scripts\RhythmSystem\RhythmSystem.cs" />
+    <Compile Include="Assets\Subtitles\SubtitlesLabel.cs" />
+    <Compile Include="Assets\Subtitles\SubtitlesService.cs" />
     <Compile Include="Assets\VolumeMenu.cs" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\определи чей голос сейчас прозвучит.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\врач.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\подумай и скажи голоса каких.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\расти.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра симфония джунглей\крокодил.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\пирамида\какая высокая пирамида.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\водителю.txt" />
+    <None Include="Assets\Subtitles\Source\Common\попробуй еще раз.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\лежит.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\ворона каркает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра грузчик\вступление 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\строителю.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\кактусы\дождь в пустыне.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\внимательно послушай голоса животных.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра паруса\ура корабль готов к встрече шторма.txt" />
+    <None Include="Assets\Subtitles\Source\Common\правильно.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\пение птиц.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\собака лает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\курница.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\летает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра чей домик\посмотри на картинку и скжи кто из животных не может жить в этом домике.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\оазис\вступление 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\тявкает.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\ковер самолет\вступление 2.txt" />
+    <None Include="Assets\Subtitles\Source\Common\хорошо.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звук О\вступление.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра чей домик\продолжи мою фразу в.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\лошадь.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра паруса\молодец корабль спасен.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\крики обезьян.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\осел.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\на картинке ты знаешь.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\лисица тявкает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра грузчик\вступление 3.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра грузчик\вступление 4.txt" />
+    <None Include="Assets\Subtitles\Source\Common\не унывай.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\прыгать.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра признаки\сьедобное.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\дятел.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\швее.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\нужны.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\кто из животных.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра чей домик\дупле.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\перекати поле\выдох должен быть длинным.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра грузчик\моряки благодарят тебя за помощь.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\цыпленок пищит.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звук А\Звук А поющий.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра ПРЯТКИ\вступление.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра причал\вступление 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\каркает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра паруса\вступление 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра составь слово\шелест листвы.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра признаки\неживое.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\кудахчет.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\учитель.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\кактусы\ура кактусы зацвели.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\птиц.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\продолжи мою фразу.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\лиса.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\падает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\гусь.txt" />
+    <None Include="Assets\Subtitles\Source\Common\умница.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\растет.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\овца.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра причал\мышь.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звук О\Звук О поющий 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню звукопроизношение\озвучка меню вариант 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\животных.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\мычит.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра признаки\сладкое.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звук А\вступление.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра симфония джунглей\попугай.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра хижины\вступление.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра муравейник\шелест листвы.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра хижины\ты отлично постарался.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\сокровища фараона\вступление 2.txt" />
+    <None Include="Assets\Subtitles\Source\root_вступление.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\падать.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\какой голос подает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\волк воет.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\лягушка квакает.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\ковер самолет\как высоко.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\бегает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\бегать.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\утка.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\лает.txt" />
+    <None Include="Assets\Subtitles\Source\Common\замечательно.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\ржет.txt" />
+    <None Include="Assets\Subtitles\Source\меню звукопроизношение\озвучка меню вариант 3.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра причал\вступление 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\оазис\кваканье лягушки.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\собака.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\крякает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра признаки\живое.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звуковые часы\поправки.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звук О\Звук О усталый 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звук А\Звук А испуганный 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\петух кукарекает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра грузчик\вступление 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра чей домик\могут жить.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра чей домик\вступление 4.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\ковер самолет\отличный полет.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\сокровища фараона\ура ты открыл сокровищницу.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра признаки\большое.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\продавец.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\поправки.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\вступление меню лексика.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\мяукает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\кричит.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра признаки\маленькое.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра животные\вступление 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра чей домик\вступление 1.txt" />
+    <None Include="Assets\Subtitles\Source\Common\отлично.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\подумай и скажи голоса каких.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\гусь гогочет.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\лежать.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\перекати поле\отлично получилось.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра чей домик\вступление 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\оазис\вступление 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\кот мяукает.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\вступление фонематика.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра муравейник\вступление 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра животные\вступление 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\посмотри на картинку и скажи кто из животных.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\садовнику.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\швея.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра симфония джунглей\определи чей голос сейчас прозвучит.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\музыканту.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\что.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\цувапуцыкпа.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра составь слово\вступление.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\светит.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\осел кричит.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\овца блеет.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра причал\моряки благодарят тебя за отличную работу.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\петух.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\пищит.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\факир\ура посмотри как танцует змея.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\фонтанчик\вступление 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\пирамида\вступление 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\садовник.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\сокровища фараона\посмотри сколько сокровищ.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\животных.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\озвучка меню вариант 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\кто.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\что может.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\воет.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\мышь пищит.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\корова.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\пирамида\вступление 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\повару.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\медведь ревет.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\таять.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра муравейник\вступление 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звук О\Звук О зевающий 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\кот.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\цыпленорк.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\водитель.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\голубь.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра ПРЯТКИ\определи чей голос сейчас прозвучит.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\посмотри на картинку и скажи кто из птиц.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\вступление.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\тинькает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра паруса\вступление 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\продавцу.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\какой голос подает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\мышь.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра симфония джунглей\обезьяна.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\летать.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\на картинке ты знаешь.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра паруса\вступление 3.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\ковер самолет\поправки.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\птиц.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звуковые часы\вступление .txt" />
+    <None Include="Assets\Subtitles\Source\Common\молодец.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\перекати поле\вступление 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\светить.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра симфония джунглей\вступление.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра признаки\несьедобное.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра чей домик\вступление 5.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра признаки\что здесь.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\кто может.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра муравейник\вступление 3.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\строитель.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\квакает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра трюм\вступление 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра чей домик\вступление 3.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра четвертый лишний\поправки.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\для какой профессии подходят оставшиеся предметы.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\лягушка.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\утка крякает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\голубь воркует.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\посмотри какие из предметов нужны человеку этой прфессии.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\сокровища фараона\ты отлично постарался.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\корова мычит.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра животные\ты отлично постарался.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\музыкант.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\кукарекает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\плавает.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\фонтанчик\вступление 2.txt" />
+    <None Include="Assets\Subtitles\Source\Common\неправильно.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звук О\Звук О удивленный 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\стучит.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра четвертый лишний\вступление.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\тает.txt" />
+    <None Include="Assets\Subtitles\Source\меню звукопроизношение\озвучка меню вариант 5.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\врачу.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра трюм\вступление 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\блеет.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звук А\Звук А смеющийся 2.txt" />
+    <None Include="Assets\Subtitles\Source\Common\у тебя получилось.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звук А\определи чей голос сейчас прозвучит.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\воркует.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\сова.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\пищит.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\кактусы\вступление.txt" />
+    <None Include="Assets\Subtitles\Source\Common\нет.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра чей домик\гнезде.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\факир\вступление 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\факир\вступление 3.txt" />
+    <None Include="Assets\Subtitles\Source\Common\здорово.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра причал\вступление 3.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра четвертый лишний\крики обезьян.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\медведь.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\факир\вступление 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\ревет.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\повар.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\перекати поле\вступление 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра чей домик\норе.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\прыгает.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\оазис\вступление 3.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\сова ухает.txt" />
+    <None Include="Assets\Subtitles\Source\меню звукопроизношение\озвучка меню вариант 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\фонтанчик\ух ты какой напор.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\дятел стучит.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\посмотри на картинку и скажи кто из птиц.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра четвертый лишний\пение птиц.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\не может.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра четвертый лишний\ты отлично постарался.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\внимательно послушай голоса животных и птиц.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\синица.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\лошадь ржет.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра симфония джунглей\слон.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\курица кудахчет.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\художнику.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\ворона.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\гогочет.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\ковер самолет\ура коврик летит.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звук А\Звук А плачущий 2.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра чей домик\доме.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\озвучка меню вариант 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звуковые часы\крики обезьян.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра паруса\умница команда благодарит тебя за помощь.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра симфония джунглей\тигр.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\сокровища фараона\вступление 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\это.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\перекати поле\дуй сильнее.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра признаки\горькое.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\плавать.txt" />
+    <None Include="Assets\Subtitles\Source\меню просодика\ковер самолет\вступление 1.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\синица тинькает.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\ухает.txt" />
+    <None Include="Assets\Subtitles\Source\меню звукопроизношение\озвучка меню вариант 4.txt" />
+    <None Include="Assets\Subtitles\Source\Common\хочешь сыграть еще раз.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра действия\продолжи мою фразу.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто сказал мяу\внимательно послушай голоса птиц.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\определи чей голос сейчас прозвучит.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра кто живет в лесу\волк.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\художник.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звук О\определи чей голос сейчас прозвучит.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра звуковые часы\пение птиц.txt" />
+    <None Include="Assets\Subtitles\Source\меню фонематика\игра симфония джунглей\кваканье лягушки.txt" />
+    <None Include="Assets\Subtitles\Source\меню лексика\игра профессии\учителю.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Repositories/Tigra-Remake/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Assets.Scripts.Audio.Subtitles;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,6 +8,8 @@ public class AudioManager : MonoBehaviour
     public static AudioManager instance;
 
     public AudioSource audioSource;
+
+    public Transform Canvas;
 
     public List<AudioClip> clipsCorrectly;
     public List<AudioClip> clipsWrong;
@@ -29,23 +32,28 @@ public class AudioManager : MonoBehaviour
 
     private void Play(List<AudioClip> clips)
     {
-        audioSource.clip = clips[Random.Range(0, clips.Count)];
+        var clip = clips[Random.Range(0, clips.Count)];
+        audioSource.clip = clip;
         audioSource.Play();
     }
 
     public void PlayCorrectly()
     {
+
         Play(clipsCorrectly);
+        SubtitlesService.Instance.ShowSubtitles("молодец.wav", Canvas, null);
     }
 
     public void PlayWrong()
     {
         Play(clipsWrong);
+        SubtitlesService.Instance.ShowSubtitles("неправильно.wav", Canvas, null);
     }
 
     public void PlaySelect()
     {
         Play(clipsSelect);
+        SubtitlesService.Instance.ShowSubtitles("вступление 1.wav", Canvas, new string[] { "меню фонематика", "игра животные"});
     }
 
     public void PlayBuildWord()

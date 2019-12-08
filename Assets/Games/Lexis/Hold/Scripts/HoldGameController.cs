@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.Interface.Dialogs;
+﻿using Assets.Scripts.Audio.Subtitles;
+using Assets.Scripts.Interface.Dialogs;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -123,6 +124,8 @@ namespace Assets.Games.Lexis.Hold.Scripts
                 WellDoneDialog winDialog = Instantiate(wellDoneDialogPrefab, Canvas);
                 winDialog.OkButton.button.onClick.AddListener(MakeRetryDialog);
                 AudioManager.instance.PlayCorrectly();
+
+                
             }
             else
             {
